@@ -17,4 +17,6 @@ int main()
 	int busca_ternaria_ite(int chave, int* vetor, int tamanho); //Ternaria iterativa
 	int busca_ternaria_rec(int chave, int* vetor, int tamanho); //Ternaria recursiva
 
+	std::cout << "teste de modi";
+
 }
