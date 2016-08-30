@@ -34,4 +34,4 @@ busca_ternaria_rec.o: busca_ternaria_rec.cpp busca_ternaria_rec.h
 
 
 clean:
-	rm -f core $(PROG) $(OBJS)
+	rm -f core $(OBJS)
