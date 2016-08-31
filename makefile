@@ -4,7 +4,7 @@
 
 PROG = projeto1
 CC = g++
-CPPFLAGS = -O0 -g -std=c++11 -Wall -pedantic -I/home/andre/Documentos/lp1/pj1/include
+CPPFLAGS = -std=c++11 -Wall -pedantic # -I/home/andre/Documentos/lp1/pj1/include removi o (-O0 -g) por cuasa so valgrind
 #LDFLAGS = -L/home/andre/Documentos/lp1/lab2/atv1/lib
 OBJS = main.o busca_sequencial_ite.o busca_sequencial_rec.o busca_binaria_ite.o busca_binaria_rec.o busca_ternaria_ite.o busca_ternaria_rec.o
 

@@ -23,6 +23,9 @@ int main(int argc, char* argv[])
 	//definir uma variavel com um vetor 
 	//definir que o tamanho vai ser obtido automaticamente com o uso de alguma função
 	//estudar o valgrind
+	//melhores algoritmos de busca
+	//ponteiros
+	//ver com pai o valor que tenho no banco
 
 	int collection[] = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15};
 
@@ -35,8 +38,7 @@ int main(int argc, char* argv[])
 	int busca_ternaria_ite(int chave, int* vetor, int tamanho); //Ternaria iterativa
 	int busca_ternaria_rec(int chave, int* vetor, int tamanho); //Ternaria recursiva
 
-	cout << "busca_sequencial_ite_1: "<< busca_sequencial_ite_1(16, collection, 16)<<endl;
-	//cout << "busca_sequencial_ite_2: "<< busca_sequencial_ite_2(16, collection, 16);
+	cout << "busca_sequencial_ite: "<< busca_sequencial_ite(16, collection, 16)<<endl;
 	cout << "busca_sequencial_rec: "<< busca_sequencial_rec(16, collection, 16)<<endl;
 
 
