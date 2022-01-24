@@ -1,2 +1,1 @@
-# Projeto1
-primeiro projeto disciplina de LP1 2016.2
+Disciplina de ESTRUTURA DE DADOS BÁSICAS 2016.2
